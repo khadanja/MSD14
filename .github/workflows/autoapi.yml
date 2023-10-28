@@ -61,7 +61,7 @@ jobs:
     - name: Commit #Upload a new refresh_token to the repository
       run: |
         git config --global user.email khadanja@gmail.com
-        git config --global user.name khadanja
+        git config --global user.name Khadanja
         git add .
         git commit -m "Update tkn" -a
     - name: Push changes
